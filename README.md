@@ -6,8 +6,8 @@
 - https://www.acfun.cn/v/ac17870993
 
 #####  Where you can download the  project resources : 
-- Download Url :  https://pan.baidu.com/s/1tA30ayqa0lKS2OMzZYpneg
-- Extracting passwords：<u>***8f4u***</u>
+- Download URL :  https://pan.baidu.com/s/1tA30ayqa0lKS2OMzZYpneg
+- Extracting Passwords：<u>***8f4u***</u>
 
 #####  This's  some information about what I have completed in Part1-3 : 
 - https://github.com/MIke199503/SwiftUI_Learning.git
@@ -22,9 +22,9 @@
 
 
 ## 3⃣️ Catelog：
-1. [<u>  Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
-2. [<u>  SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
-3. [<u>  SF Symbols and List Styles  </u>](https://www.acfun.cn/v/ac17870993_3)
+1. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
+2. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
+3. [<u> SF Symbols and List Styles  </u>](https://www.acfun.cn/v/ac17870993_3)
 4. [<u> Sidebar and Label </u>](https://www.acfun.cn/v/ac17870993_4)
 5. [<u> macOS app and Toolbar </u>](https://www.acfun.cn/v/ac17870993_5)
-
+6. [<u> Toolbar and organizing </u>](https://www.acfun.cn/v/ac17870993_6)
