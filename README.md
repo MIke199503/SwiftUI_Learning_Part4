@@ -1,6 +1,6 @@
 # SwiftUI_Learning_Part4
-## 1⃣️ ：introduction :
-			When I took the course in Parts 1-3, there was a difference between the official SwiftUI version and the swiftUI version used in the course. If I want to fix the code error caused by the version problem, I can only solve it by myself. As a newbie in programming, this is a bit difficult for me. But by chance, I found the part 4  of the course on the acfun website. Part 4 is dedicated to introducing the latest SwiftUI version, Xcode and Mac os. This is very useful for me at this time. I recorded some notes in the README.md, and good luck for myself
+## 1⃣️ introduction :
+   When I took the course in Parts 1-3, there was a difference between the official SwiftUI version and the swiftUI version used in the course. If I want to fix the code error caused by the version problem, I can only solve it by myself. As a newbie in programming, this is a bit difficult for me. But by chance, I found the part 4  of the course on the acfun website. Part 4 is dedicated to introducing the latest SwiftUI version, Xcode and Mac os. This is very useful for me at this time. I recorded some notes in the README.md, and good luck for myself
 
 #####  The Course Url：
 - https://www.acfun.cn/v/ac17870993_5
@@ -16,8 +16,8 @@
 
 ## 2⃣️Body:
 
-**Date : 2021 - 01 - 10 :** 
-			Crate the Repository. And. Finished the 1 - 5  lessons of the course without problem.
+**Date : 2021 - 01 - 10 :**  
+    Crate the Repository. And. Finished the 1 - 5  lessons of the course without problem.
 
 
 
