@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  Shared
+//  CourseItem.swift
+//  DesignCodeCourse
 //
-//  Created by 朱桃禾 on 2021/1/10.
+//  Created by 朱桃禾 on 2021/1/11.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct CourseItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -37,15 +37,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CourseItem_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-            ContentView()
-                .preferredColorScheme(.dark)
-                .previewLayout(.fixed(width: 200, height: 200))
-                //只显示指定大小的布局。
-        }
-        
+        CourseItem()
     }
 }
