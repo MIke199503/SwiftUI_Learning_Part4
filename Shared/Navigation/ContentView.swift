@@ -11,10 +11,10 @@ struct ContentView: View {
     @ViewBuilder
     var body: some View {
         #if os(iOS)
-        SideBar()
+            SideBar()
         #else
-        SideBar()
-            .frame(minWidth:1000,minHeight:600)
+            SideBar()
+                .frame(minWidth:1000,minHeight:600)
         #endif
     }
 }
@@ -25,8 +25,8 @@ struct ContentView_Previews: PreviewProvider {
             ContentView()
             ContentView()
                 .preferredColorScheme(.dark)
-//                .previewLayout(.fixed(width: 200, height: 200))
-                //只显示指定大小的布局。
+            //                .previewLayout(.fixed(width: 200, height: 200))
+            //只显示指定大小的布局。
         }
         
     }

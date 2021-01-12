@@ -19,6 +19,11 @@
 **Date : 2021 - 01 - 10 :**  
     Crate the Repository. And. Finished the 1 - 5  lessons of the course without problem.
 
+**Date : 2021 - 01 - 11 :**    
+    Create a toolbar, it can be displayed at the top, bottom or other places of the screen, it looks like a button on WeChat Moments, This button will be used when you want to share post. Then we organize the project by grouping the files. When you want to view the code, it will be very clear.Finished the 6th lesson without problem
+
+**Date : 2021 - 01 - 12 :**    
+    Finished the 7th  & 8th lesson with one  problem,  i learned how to use the Transitions modifier ,it will help us to connect maybe bind the animation and View. This is  my understanding.then ,i got  a problem when i learned the 8th lesson , i don't know what is the Namepace mean?, but i know the matchedgeometryeffect is look  like Smooth transition in PPT . If you know what's  the  "Namepace" mean? or how does it work ? please tell me and teach  me .thanks very much .
 
 
 ## 3⃣️ Catelog：
@@ -28,3 +33,5 @@
 4. [<u> Sidebar and Label </u>](https://www.acfun.cn/v/ac17870993_4)
 5. [<u> macOS app and Toolbar </u>](https://www.acfun.cn/v/ac17870993_5)
 6. [<u> Toolbar and organizing </u>](https://www.acfun.cn/v/ac17870993_6)
+7. [<u> Show View and Transitions </u>](https://www.acfun.cn/v/ac17870993_7)
+8. [<u> Matched Geometry Effect </u>](https://www.acfun.cn/v/ac17870993_8)

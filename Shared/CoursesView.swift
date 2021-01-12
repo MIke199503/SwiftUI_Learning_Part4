@@ -8,22 +8,42 @@
 import SwiftUI
 
 struct CoursesView: View {
-    @ViewBuilder // 想要预览macos版本下的内容，就必须使用bigsur系统，和最新的xcode12
-    var body: some View {
-        #if os(iOS)
-        content
-            .listStyle(InsetGroupedListStyle())
-        #else
-        content
-            .frame(minWidth:800,minHeight:600)
-        #endif
-    }
-    
-    var content:some View{
-        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-            CourseRow()
+    @State var show = false
+    @Namespace var namespace
+    var body: some View{
+        ZStack {
+            CourseItem()
+                .matchedGeometryEffect(id: "Card", in: namespace,isSource: !show)
+                //这里的matchedgeometryEffect 我觉得就跟PPT中的平滑移动很类似，id的话，就是匹配，从谁变到谁，然后in的话，我的理解，就是一个空间用来变换的。然后issource就是谁是根试图，也就是从谁那里变得。
+                .frame(width: 335, height: 250)
+            
+            if show {
+                ScrollView {
+                    CourseItem()
+                        .matchedGeometryEffect(id: "Card", in: namespace)
+                        .frame(height:300)
+                    VStack{
+                        ForEach( 0 ..< 20 ){ item in
+                            CourseRow()
+                        }
+                    }
+                    .padding()
+                    
+                }
+                .transition(.opacity)
+                .edgesIgnoringSafeArea(.all)
+                //                        .zIndex(1)//防止遮挡
+                //这里的transition，我的理解是当你的view和animation链接，然后按照特定的方式出现。
+            }
+            
+            
         }
-        .navigationTitle("Courses")
+        .onTapGesture {
+            withAnimation(.spring()) {
+                show.toggle()
+            }
+        }
+        //        .animation(.spring())// 这里不实用外置的animation是因为会有拖影，但是在里面就不会。
         
     }
 }
