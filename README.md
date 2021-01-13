@@ -23,15 +23,19 @@
     Create a toolbar, it can be displayed at the top, bottom or other places of the screen, it looks like a button on WeChat Moments, This button will be used when you want to share post. Then we organize the project by grouping the files. When you want to view the code, it will be very clear.Finished the 6th lesson without problem
 
 **Date : 2021 - 01 - 12 :**    
-    Finished the 7th  & 8th lesson with one  problem,  i learned how to use the Transitions modifier ,it will help us to connect maybe bind the animation and View. This is  my understanding.then ,i got  a problem when i learned the 8th lesson , i don't know what is the Namepace mean?, but i know the matchedgeometryeffect is look  like Smooth transition in PPT . If you know what's  the  "Namepace" mean? or how does it work ? please tell me and teach  me .thanks very much .
+    Finished the 7th  & 8th lesson with one  problem,   I learned how to use the transition modifier, which will help us connect or bind animations and views. This is  my understanding.then , Then, when I got to lesson 8, I had a problem , I didn't know what Namepace meant,  but I knew that the matchedgeometryeffect  looked  like Smooth transition in PPT . If you know what's  the  "Namepace" means? or how does it work ? please tell me and teach  me .Thanks very much .
 
-
+**Date : 2021 - 01 - 13 :**    
+    Finished the 9th  & 10th lesson without   problem, In this lesson about how to show Views, we used a new modifier: asymmetry, which allows us to distinguish between inserted and removed animations, and I created a data file named Course, and everything is fine.
+    
 ## 3⃣️ Catelog：
-1. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
-2. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
-3. [<u> SF Symbols and List Styles  </u>](https://www.acfun.cn/v/ac17870993_3)
-4. [<u> Sidebar and Label </u>](https://www.acfun.cn/v/ac17870993_4)
-5. [<u> macOS app and Toolbar </u>](https://www.acfun.cn/v/ac17870993_5)
-6. [<u> Toolbar and organizing </u>](https://www.acfun.cn/v/ac17870993_6)
-7. [<u> Show View and Transitions </u>](https://www.acfun.cn/v/ac17870993_7)
-8. [<u> Matched Geometry Effect </u>](https://www.acfun.cn/v/ac17870993_8)
+01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
+02. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
+03. [<u> SF Symbols and List Styles  </u>](https://www.acfun.cn/v/ac17870993_3)
+04. [<u> Sidebar and Label </u>](https://www.acfun.cn/v/ac17870993_4)
+05. [<u> macOS app and Toolbar </u>](https://www.acfun.cn/v/ac17870993_5)
+06. [<u> Toolbar and organizing </u>](https://www.acfun.cn/v/ac17870993_6)
+07. [<u> Show View and Transitions </u>](https://www.acfun.cn/v/ac17870993_7)
+08. [<u> Matched Geometry Effect </u>](https://www.acfun.cn/v/ac17870993_8)
+09. [<u> Show View and Transitions </u>](https://www.acfun.cn/v/ac17870993_9)
+10. [<u> Matchede Cards and Static Data </u>](https://www.acfun.cn/v/ac17870993_10)
