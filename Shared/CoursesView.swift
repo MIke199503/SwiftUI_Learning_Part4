@@ -6,30 +6,51 @@
 //
 
 import SwiftUI
-
 struct CoursesView: View {
     @State var show = false
     @Namespace var namespace
+    @State var selectedItem:Course? = nil //点击的是谁，谁变大
+    @State var isDisabled = false
+    
     var body: some View{
         ZStack {
             ScrollView {
-                VStack {
+                VStack(spacing:20) {
                     ForEach(courses) { item in
                         CourseItem(course: item)
                             .matchedGeometryEffect(id: item.id, in: namespace,isSource: !show)
                             //这里的matchedgeometryEffect 我觉得就跟PPT中的平滑移动很类似，id的话，就是匹配，从谁变到谁，然后in的话，我的理解，就是一个空间用来变换的。然后issource就是谁是根试图，也就是从谁那里变得。
                             .frame(width: 335, height: 250)
+                            //将OntapGesture放在这里是为了对应每个card
+                            .onTapGesture {
+                                withAnimation(.spring()) {
+                                    self.show.toggle()
+                                    self.selectedItem = item
+                                    self.isDisabled = true
+                                }
+                            }
+                            .disabled(self.isDisabled)
                     }
-
+                    
                 }
                 .frame(maxWidth:.infinity)
             }
             
-            if show {
+            if selectedItem != nil   {
                 ScrollView {
-                    CourseItem(course: courses[3])
-                        .matchedGeometryEffect(id: courses[3].id, in: namespace)
+                    CourseItem(course: selectedItem!)
+                        .matchedGeometryEffect(id: selectedItem!.id, in: namespace)
                         .frame(height:300)
+                        //放在这里，是为了放大之后的额缩回去。
+                        .onTapGesture {
+                            withAnimation(.spring()) {
+                                self.show.toggle()
+                                self.selectedItem = nil
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3 ){
+                                    self.isDisabled = false
+                                }
+                            }
+                        }
                     VStack{
                         ForEach( 0 ..< 20 ){ item in
                             CourseRow()
@@ -42,14 +63,14 @@ struct CoursesView: View {
                 .transition(
                     .asymmetric(
                         insertion: AnyTransition
-                                    .opacity
-                                    .animation(
-                                        Animation.spring()
-                                            .delay(0.3)
-                                    ),
+                                        .opacity
+                                        .animation(
+                                                Animation.spring()
+                                                        .delay(0.3)
+                            ),
                         removal: AnyTransition
-                            .opacity
-                            .animation(.spring()))
+                                        .opacity
+                                        .animation(.spring()))
                     
                 )
                 .edgesIgnoringSafeArea(.all)
@@ -61,11 +82,7 @@ struct CoursesView: View {
             
             
         }
-        .onTapGesture {
-            withAnimation(.spring()) {
-                show.toggle()
-            }
-        }
+        
         //        .animation(.spring())// 这里不实用外置的animation是因为会有拖影，但是在里面就不会。
         
     }

@@ -16,7 +16,7 @@ struct CourseItem: View {
                 Spacer()
                 Image(course.image)
                     .resizable()
-                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fit/*@END_MENU_TOKEN@*/)
+                    .aspectRatio(contentMode: .fit)
                 Spacer()
             }
                 
