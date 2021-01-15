@@ -15,7 +15,7 @@ struct CoursesView: View {
     var body: some View{
         ZStack {
             ScrollView {
-                VStack(spacing:20) {
+                LazyVGrid(columns: [GridItem()]) {
                     ForEach(courses) { item in
                         CourseItem(course: item)
                             .matchedGeometryEffect(id: item.id, in: namespace,isSource: !show)
