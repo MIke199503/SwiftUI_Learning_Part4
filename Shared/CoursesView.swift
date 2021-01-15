@@ -14,13 +14,21 @@ struct CoursesView: View {
     
     var body: some View{
         ZStack {
-            ScrollView {
-                LazyVGrid(columns: [GridItem()]) {
+            ScrollView() {
+                //关于lazyVgrid，用行与列来排布内容，在vGrid时，gridItem就是代表一列。再多写一个，就多一列。
+                //adaptive 在给定的空间自动适应，minimun最小尺寸
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 160),spacing: 16)],spacing:16) {
+                    //第二种写法，使用列表的repeat写法
+                    //                LazyVGrid(
+                    //                    columns: Array(repeating: .init(.flexible(),spacing:16), count: 3),
+                    //                    spacing:16
+                    //                ) {
+                    
                     ForEach(courses) { item in
                         CourseItem(course: item)
                             .matchedGeometryEffect(id: item.id, in: namespace,isSource: !show)
                             //这里的matchedgeometryEffect 我觉得就跟PPT中的平滑移动很类似，id的话，就是匹配，从谁变到谁，然后in的话，我的理解，就是一个空间用来变换的。然后issource就是谁是根试图，也就是从谁那里变得。
-                            .frame(width: 335, height: 250)
+                            .frame(height: 200)
                             //将OntapGesture放在这里是为了对应每个card
                             .onTapGesture {
                                 withAnimation(.spring()) {
@@ -31,10 +39,11 @@ struct CoursesView: View {
                             }
                             .disabled(self.isDisabled)
                     }
-                    
                 }
+                .padding(10)
                 .frame(maxWidth:.infinity)
             }
+            
             
             if selectedItem != nil   {
                 ScrollView {
@@ -63,14 +72,14 @@ struct CoursesView: View {
                 .transition(
                     .asymmetric(
                         insertion: AnyTransition
-                                        .opacity
-                                        .animation(
-                                                Animation.spring()
-                                                        .delay(0.3)
+                            .opacity
+                            .animation(
+                                Animation.spring()
+                                    .delay(0.3)
                             ),
                         removal: AnyTransition
-                                        .opacity
-                                        .animation(.spring()))
+                            .opacity
+                            .animation(.spring()))
                     
                 )
                 .edgesIgnoringSafeArea(.all)

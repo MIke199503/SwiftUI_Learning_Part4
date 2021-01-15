@@ -31,6 +31,9 @@
 **Date : 2021 - 01 - 14 :**    
     Finished the 11th without problem, In this lesson, we use a state variable to determine which card is selected, and we use a modifier "isdisable" to determine whether a card is displayed    
 
+**Date : 2021 - 01 - 15 :**    
+    Finished the 12th without problem,  In this lesson, we use lazyVGrid to automatically arrange views, V for vertical, or we can use lazyHgrid, parameters that should be rows, not columns
+
 ## 3⃣️ Catelog：
 01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
 02. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
@@ -43,4 +46,5 @@
 09. [<u> Show View and Transitions </u>](https://www.acfun.cn/v/ac17870993_9)
 10. [<u> Matchede Cards and Static Data </u>](https://www.acfun.cn/v/ac17870993_10)
 11. [<u> Selection State and Disable </u>](https://www.acfun.cn/v/ac17870993_11)
-12. 
+12. [<u> Lazy grid layout  </u>](https://www.acfun.cn/v/ac17870993_12)
+13. 
