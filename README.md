@@ -37,6 +37,9 @@
 **Date : 2021 - 01 - 16 :**    
     Finished the 13th without problem,  In this lesson, we use Zindex to determine which view is at the top level. we created a CloseButton ,there's all 
 
+**Date : 2021 - 01 - 17 :**    
+    Finished the 14th without problem,  In this lesson, we create a separate file for a full-scrren view and pass the namespace id
+
 ## 3⃣️ Catelog：
 01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
 02. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
@@ -51,4 +54,5 @@
 11. [<u> Selection State and Disable </u>](https://www.acfun.cn/v/ac17870993_11)
 12. [<u> Lazy grid layout  </u>](https://www.acfun.cn/v/ac17870993_12)
 13. [<u> Matched Container and zindex  </u>](https://www.acfun.cn/v/ac17870993_13)
+14. [<u>  Passing Namespace  </u>](https://www.acfun.cn/v/ac17870993_14)
 

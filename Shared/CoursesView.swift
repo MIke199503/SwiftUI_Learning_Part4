@@ -51,52 +51,7 @@ struct CoursesView: View {
             if selectedItem != nil   {
                 ZStack(alignment:.topTrailing){
                     //这里使用toptrailing 是为了让关闭按钮出现在右上角
-                    VStack {
-                        ScrollView {
-                            CourseItem(course: selectedItem!)
-                                .matchedGeometryEffect(id: selectedItem!.id, in: namespace)
-                                .frame(height:300)
-                                //放在这里，是为了放大之后的额缩回去。
-                                .onTapGesture {
-                                    withAnimation(.spring()) {
-                                        self.show.toggle()
-                                        self.selectedItem = nil
-                                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3 ){
-                                            self.isDisabled = false
-                                        }
-                                    }
-                                }
-                            VStack{
-                                ForEach( 0 ..< 20 ){ item in
-                                    CourseRow()
-                                }
-                            }
-                            .padding()
-                            
-                        }
-                    }
-                    //                        .zIndex(1)//防止遮挡
-                    //这里的transition，我的理解是当你的view和animation链接，然后按照特定的方式出现。
-                    //使用透明度来过渡，并且在过渡的时候，添加一个Spring效果。并且有延迟。
-                    //.asymmetric 就是分开来处理。因为如果同时处理的话，推出的时候，延迟效果没必要，大可不必，兄弟。
-
-                    .background(Color("Background 1"))
-                    .clipShape(RoundedRectangle(cornerRadius: 22,style: .continuous))
-                    .matchedGeometryEffect(id: "container\(selectedItem!.id)", in: namespace,isSource: !show)
-                    .transition(
-                        .asymmetric(
-                            insertion: AnyTransition
-                                .opacity
-                                .animation(
-                                    Animation.spring()
-                                        .delay(0.3)
-                                ),
-                            removal: AnyTransition
-                                .opacity
-                                .animation(.spring()))
-                        
-                    )
-                    .edgesIgnoringSafeArea(.all)
+                    CourseDetail(course:selectedItem!,namespace: namespace)
                     
                     
                     
