@@ -40,6 +40,9 @@
 **Date : 2021 - 01 - 17 :**    
     Finished the 14th without problem,  In this lesson, we create a separate file for a full-scrren view and pass the namespace id
 
+**Date : 2021 - 01 - 18 :**    
+    Finished the 14th without problem,  In this lesson, we adding a background blur that works for ios and macOS Big Sur
+
 ## 3⃣️ Catelog：
 01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
 02. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
@@ -55,4 +58,6 @@
 12. [<u> Lazy grid layout  </u>](https://www.acfun.cn/v/ac17870993_12)
 13. [<u> Matched Container and zindex  </u>](https://www.acfun.cn/v/ac17870993_13)
 14. [<u>  Passing Namespace  </u>](https://www.acfun.cn/v/ac17870993_14)
+15. [<u>  Visual Effect Blur for macOS  </u>](https://www.acfun.cn/v/ac17870993_15)
+16. 
 
