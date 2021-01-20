@@ -43,6 +43,12 @@
 **Date : 2021 - 01 - 18 :**    
     Finished the 14th without problem,  In this lesson, we adding a background blur that works for ios and macOS Big Sur
 
+**Date : 2021 - 01 - 19 :**    
+   Tonight,I need to work overtime .so Suspend the progress of study . Damn ! , the  ordinary people are being exploited by capitalists, and the government doesn't care at all? at the same time, my colleagues around me are still willing to work overtime. what the fuck! You know, they don't care about the overtime compensation at all. Why they don't  go home for dinner ? or make love with your muscular boyfriend or sweet girlfriend? Isn't it better than work? is not？Bitch~If you don't get off work when I'm off, the boss will accuse me and say: Don't you want to get better at all? Fuck you bitch! . then, I also worked overtime just like you , and then the boss felt that employees who are willing to work overtime are good employees, and such "excellent " employees do not need any overtime compensation !  hah ,so Funny!!!!! Are you a fucking slave? My dear colleague! ! !
+
+**Date : 2021 - 01 - 20 :**    
+    Recently.My stupid boss always makes me work overtime and doesn't pay me overtime, so I don't have time to study my lessons, son of a bitch! motherFucker!
+
 ## 3⃣️ Catelog：
 01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
 02. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
