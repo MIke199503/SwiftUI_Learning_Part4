@@ -49,6 +49,9 @@
 **Date : 2021 - 01 - 20 :**    
     Recently.My stupid boss always makes me work overtime and doesn't pay me overtime, so I don't have time to study my lessons, son of a bitch! motherFucker!
 
+**Date : 2021 - 01 - 22 :**    
+    I just got off work!!!!!!! Yes, you heard me .just right now!!!!! That's right! Now! ! Damn it! ! Bitch!!! ! MOUTHERFUCKER !  
+
 ## 3⃣️ Catelog：
 01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
 02. [<u> SwiftUI Visual Editor  </u>](https://www.acfun.cn/v/ac17870993_2)
