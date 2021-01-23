@@ -41,7 +41,7 @@
     Finished the 14th without problem,  In this lesson, we create a separate file for a full-scrren view and pass the namespace id
 
 **Date : 2021 - 01 - 18 :**    
-    Finished the 14th without problem,  In this lesson, we adding a background blur that works for ios and macOS Big Sur
+    Finished the 15th without problem,  In this lesson, we adding a background blur that works for ios and macOS Big Sur
 
 **Date : 2021 - 01 - 19 :**    
    Tonight,I need to work overtime .so Suspend the progress of study . Damn ! , the  ordinary people are being exploited by capitalists, and the government doesn't care at all? at the same time, my colleagues around me are still willing to work overtime. what the fuck! You know, they don't care about the overtime compensation at all. Why they don't  go home for dinner ? or make love with your muscular boyfriend or sweet girlfriend? Isn't it better than work? is not？Bitch~If you don't get off work when I'm off, the boss will accuse me and say: Don't you want to get better at all? Fuck you bitch! . then, I also worked overtime just like you , and then the boss felt that employees who are willing to work overtime are good employees, and such "excellent " employees do not need any overtime compensation !  hah ,so Funny!!!!! Are you a fucking slave? My dear colleague! ! !
@@ -51,6 +51,9 @@
 
 **Date : 2021 - 01 - 22 :**    
     I just got off work!!!!!!! Yes, you heard me .just right now!!!!! That's right! Now! ! Damn it! ! Bitch!!! ! MOUTHERFUCKER !  
+
+**Date : 2021 - 01 - 23 :**    
+    Finished the 16th without problem,  In this lesson, we setting the Tab Bar for iPhone versus Sidebar for iPad
 
 ## 3⃣️ Catelog：
 01. [<u> Build a SwiftUI app for iOS 14 </u>](https://www.acfun.cn/v/ac17870993_1)
@@ -68,5 +71,5 @@
 13. [<u> Matched Container and zindex  </u>](https://www.acfun.cn/v/ac17870993_13)
 14. [<u>  Passing Namespace  </u>](https://www.acfun.cn/v/ac17870993_14)
 15. [<u>  Visual Effect Blur for macOS  </u>](https://www.acfun.cn/v/ac17870993_15)
-16. 
+16. [<u>  Size Class  and Tab Bar  </u>](https://www.acfun.cn/v/ac17870993_16)
 
